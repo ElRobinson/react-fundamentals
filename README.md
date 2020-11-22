@@ -22,8 +22,8 @@
 
 <!-- prettier-ignore-start -->
 [![Build Status][build-badge]][build]
-[![AppVeyor Build Status][win-build-badge]][win-build]
 [![GPL 3.0 License][license-badge]][license]
+[![All Contributors][all-contributors-badge]](#contributors-)
 [![Code of Conduct][coc-badge]][coc]
 <!-- prettier-ignore-end -->
 
@@ -39,7 +39,7 @@
 ## System Requirements
 
 - [git][git] v2.13 or greater
-- [NodeJS][node] `^10.13 || 12 || 14`
+- [NodeJS][node] `^10.13 || 12 || 14 || 15`
 - [npm][npm] v6 or greater
 
 All of these must be available in your `PATH`. To verify things are set up
@@ -89,6 +89,13 @@ right versions of the requirements listed above, and run the following commands:
 ```
 npm install
 npm run validate
+```
+
+If you are still unable to fix issues and you know how to use Docker 🐳 you can
+setup the project with the following command:
+
+```
+docker-compose up
 ```
 
 It's recommended you run everything locally in the same environment you work in
@@ -209,6 +216,13 @@ Thanks goes to these wonderful people
     <td align="center"><a href="https://github.com/allstargaurav"><img src="https://avatars3.githubusercontent.com/u/24932097?v=4" width="100px;" alt=""/><br /><sub><b>Gaurav</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=allstargaurav" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/LauraOneasca"><img src="https://avatars2.githubusercontent.com/u/31212753?v=4" width="100px;" alt=""/><br /><sub><b>LauraOneasca</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=LauraOneasca" title="Documentation">📖</a></td>
     <td align="center"><a href="https://michaeldeboey.be"><img src="https://avatars3.githubusercontent.com/u/6643991?v=4" width="100px;" alt=""/><br /><sub><b>Michaël De Boey</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=MichaelDeBoey" title="Code">💻</a></td>
+    <td align="center"><a href="http://xiphe.net"><img src="https://avatars1.githubusercontent.com/u/911218?v=4" width="100px;" alt=""/><br /><sub><b>Hannes Diercks</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=Xiphe" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/denno020"><img src="https://avatars2.githubusercontent.com/u/2059313?v=4" width="100px;" alt=""/><br /><sub><b>Luke</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/issues?q=author%3Adenno020" title="Bug reports">🐛</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://tonidezman.github.io/"><img src="https://avatars0.githubusercontent.com/u/11177270?v=4" width="100px;" alt=""/><br /><sub><b>Toni Dezman</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=tonidezman" title="Code">💻</a></td>
+    <td align="center"><a href="http://bobbywarner.com"><img src="https://avatars0.githubusercontent.com/u/554961?v=4" width="100px;" alt=""/><br /><sub><b>Bobby Warner</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=bobbywarner" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/PunkSage"><img src="https://avatars2.githubusercontent.com/u/1321225?v=4" width="100px;" alt=""/><br /><sub><b>Konrad Szałwiński</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=PunkSage" title="Code">💻</a></td>
   </tr>
 </table>
 
@@ -232,17 +246,16 @@ Thank you! https://kcd.im/rf-ws-feedback
 [npm]: https://www.npmjs.com/
 [node]: https://nodejs.org
 [git]: https://git-scm.com/
-[build-badge]: https://img.shields.io/travis/kentcdodds/react-fundamentals.svg?style=flat-square&logo=travis
-[build]: https://travis-ci.com/kentcdodds/react-fundamentals
+[build-badge]: https://img.shields.io/github/workflow/status/kentcdodds/react-fundamentals/validate/main?logo=github&style=flat-square
+[build]: https://github.com/kentcdodds/react-fundamentals/actions?query=workflow%3Avalidate
 [license-badge]: https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
 [license]: https://github.com/kentcdodds/react-fundamentals/blob/main/LICENSE
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
 [coc]: https://github.com/kentcdodds/react-fundamentals/blob/main/CODE_OF_CONDUCT.md
 [emojis]: https://github.com/kentcdodds/all-contributors#emoji-key
 [all-contributors]: https://github.com/kentcdodds/all-contributors
+[all-contributors-badge]: https://img.shields.io/github/all-contributors/kentcdodds/react-fundamentals?color=orange&style=flat-square
 [win-path]: https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/
 [mac-path]: http://stackoverflow.com/a/24322978/971592
 [issue]: https://github.com/kentcdodds/react-fundamentals/issues/new
-[win-build-badge]: https://img.shields.io/appveyor/ci/kentcdodds/react-fundamentals.svg?style=flat-square&logo=appveyor
-[win-build]: https://ci.appveyor.com/project/kentcdodds/react-fundamentals
 <!-- prettier-ignore-end -->
