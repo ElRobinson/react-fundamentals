@@ -1,10 +1,9 @@
-<!-- Easy-->
 <body>
   <div id="root"></div>  
   <script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script>
  
-
+  <!--
   <script type="module">
     const rootElement = document.getElementById('root')
 
@@ -15,8 +14,23 @@
     })
 
     ReactDOM.render(element, rootElement)
+-->
+    <!-- Nesting elements-->
+    const helloElement = React.createElement('span', null, 'Hello');
+    const worldElement = React.createElement('span', {children: 'World'});
+    const element = React.createElement(
+      'div',
+      {
+        className: 'container'
+      },
+      helloElement,
+      ' ',
+      worldElement
+    )
+
   </script>
 </body>
 
-<!-- Challange-->
+
+
 
